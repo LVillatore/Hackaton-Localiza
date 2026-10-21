@@ -1,0 +1,17 @@
+{
+ "certo": 15,
+ "upgrade": 8,
+ "nao_atendido": 200,
+ "ponta_kwh": 0.5,
+ "demanda_kw": 2,
+ "custo_ac_7": 250,
+ "custo_ac_11": 1100,
+ "custo_ac_22x2": 1500,
+ "custo_dc_30": 3500,
+ "custo_dc_60x2": 7300,
+ "custo_dc_120x2": 15800,
+ "custo_b3_75": 5000,
+ "custo_a4_150": 6500,
+ "custo_a4_225": 8200,
+ "custo_a4_300": 10000
+}

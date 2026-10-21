@@ -1,0 +1,144 @@
+[
+ {
+  "nota": 8419.806742958,
+  "obra": 9250,
+  "sub": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "ac_7": 3,
+    "dc_30": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "chegada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   }
+  },
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1290,
+   "upgrades": 1,
+   "nao_atendidos": 2,
+   "pico_kw": 50.999999999999986,
+   "energia_kwh": 27527.567734107775,
+   "energia_ponta_kwh": 2576.386514083999,
+   "atendimento_pct": 99.84532095901005,
+   "demanda_contratada_kw": 0
+  }
+ },
+ {
+  "nota": 7834.152134670108,
+  "obra": 10250,
+  "sub": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "ac_7": 1,
+    "ac_22x2": 1,
+    "dc_30": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   }
+  },
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1292,
+   "upgrades": 1,
+   "nao_atendidos": 0,
+   "pico_kw": 58.99999999999992,
+   "energia_kwh": 27595.64425254807,
+   "energia_ponta_kwh": 2607.695730659786,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 0
+  }
+ },
+ {
+  "nota": 7761.022722982067,
+  "obra": 10100,
+  "sub": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "ac_7": 2,
+    "ac_11": 1,
+    "dc_30": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   }
+  },
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1289,
+   "upgrades": 3,
+   "nao_atendidos": 1,
+   "pico_kw": 54.99999999999977,
+   "energia_kwh": 27569.114877575033,
+   "energia_ponta_kwh": 2595.954554035867,
+   "atendimento_pct": 99.92266047950503,
+   "demanda_contratada_kw": 0
+  }
+ },
+ {
+  "nota": 7395.0,
+  "obra": 12000,
+  "sub": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "dc_30": 2
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": true,
+    "divisao": "igual"
+   }
+  },
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1293,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 60.000000000000064,
+   "energia_kwh": 27628.411097693788,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 0
+  }
+ },
+ {
+  "nota": 7186.023165019622,
+  "obra": 10750,
+  "sub": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "ac_7": 3,
+    "dc_30": 1
+   },
+   "entrada": "a4_150",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   },
+   "demanda_contratada_kw": 50
+  },
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1288,
+   "upgrades": 5,
+   "nao_atendidos": 0,
+   "pico_kw": 50.00000000000005,
+   "energia_kwh": 27644.164572303383,
+   "energia_ponta_kwh": 2647.9536699607547,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50
+  }
+ }
+]

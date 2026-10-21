@@ -1,0 +1,140 @@
+[
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "ac_22x2": 3
+  },
+  "entrada": "b3_45",
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "ac_22x2": 2
+  },
+  "entrada": "b3_75",
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "ac_22x2": 2
+  },
+  "entrada": "b3_75",
+  "politica": {
+   "prioridade": "chegada",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "dc_30": 1,
+   "ac_11": 3
+  },
+  "entrada": "a4_150",
+  "demanda_contratada_kw": 90,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "dc_30": 1,
+   "ac_11": 3
+  },
+  "entrada": "a4_150",
+  "demanda_contratada_kw": 90,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "igual"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 2,
+   "ac_22x2": 1
+  },
+  "entrada": "a4_150",
+  "demanda_contratada_kw": 120,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_120x2": 1,
+   "dc_60x2": 1,
+   "ac_22x2": 1
+  },
+  "entrada": "a4_150",
+  "demanda_contratada_kw": 150,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_120x2": 3
+  },
+  "entrada": "a4_225",
+  "demanda_contratada_kw": 200,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "dc_30": 1,
+   "ac_11": 3
+  },
+  "entrada": "a4_150",
+  "demanda_contratada_kw": 90,
+  "politica": {
+   "prioridade": "menor_soc",
+   "evitar_ponta": false,
+   "divisao": "prioridade"
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "carregadores": {
+   "dc_60x2": 1,
+   "ac_11": 4
+  },
+  "entrada": "b3_75",
+  "politica": {
+   "prioridade": "proxima_retirada",
+   "evitar_ponta": true,
+   "divisao": "prioridade"
+  }
+ }
+]
