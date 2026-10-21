@@ -1,0 +1,17 @@
+{
+ "agencia": "Istanbul",
+ "periodo": "publico",
+ "valido": true,
+ "erros": [],
+ "violacoes": [],
+ "nota": 8381.19435907689,
+ "metricas": {
+  "contratos": 1293,
+  "atendimento_pct": 99.84532095901005,
+  "pico_kw": 51.00000000000003,
+  "energia_kwh": 27538.286593319255
+ },
+ "taxa": 20,
+ "saldo": 980,
+ "repetido": false
+}
