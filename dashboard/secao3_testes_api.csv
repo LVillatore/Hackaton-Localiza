@@ -1,0 +1,38 @@
+﻿hora;agencia;tipo;submissao;nota_juiz;m7coins;saldo_depois;repetido
+11:24:46;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2, ""dc_30"": 1}, ""entrada"": ""b3_45"", ""politica"": {""prioridade"": ""menor_soc"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";14.47494914247065;0;1000;False
+11:47:06;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 1}, ""entrada"": ""b3_45""}";-31286.04795510952;0;1000;False
+11:48:10;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2}, ""entrada"": ""b3_45""}";-10719.736464071126;0;1000;False
+11:49:14;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 3}, ""entrada"": ""b3_45""}";2690.60253547441;0;1000;False
+11:50:17;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 6}, ""entrada"": ""b3_45""}";2461.017566280859;0;1000;False
+11:51:21;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_11"": 1}, ""entrada"": ""b3_45""}";-30909.043521993754;0;1000;False
+11:52:26;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_11"": 3}, ""entrada"": ""b3_45""}";390.42863187311127;0;1000;False
+11:53:30;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_22x2"": 1}, ""entrada"": ""b3_45""}";-8525.921800271242;0;1000;False
+11:54:35;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_22x2"": 3}, ""entrada"": ""b3_45""}";-519.8353975368602;0;1000;False
+11:56:41;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_30"": 1}, ""entrada"": ""b3_45""}";533.208185893985;0;1000;False
+11:57:45;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_30"": 2}, ""entrada"": ""b3_45""}";-2956.553415750059;0;1000;False
+11:58:49;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_60x2"": 1}, ""entrada"": ""b3_45""}";-3250.705392277932;0;1000;False
+11:59:53;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_120x2"": 1}, ""entrada"": ""b3_45""}";-11750.705392277932;0;1000;False
+12:00:56;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 3}, ""entrada"": ""b3_45"", ""politica"": {""prioridade"": ""chegada"", ""evitar_ponta"": true, ""divisao"": ""igual""}}";3100.0;0;1000;False
+12:02:00;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_60x2"": 1, ""ac_7"": 2}, ""entrada"": ""b3_75""}";-8740.880498962313;0;1000;False
+12:03:04;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_60x2"": 1, ""ac_7"": 2}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 40}";-10335.63877220184;0;1000;False
+12:04:09;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_60x2"": 1, ""ac_7"": 2}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 120}";-10480.880498962313;0;1000;False
+12:05:13;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_60x2"": 2}, ""entrada"": ""a4_225"", ""demanda_contratada_kw"": 60}";-18864.167953242668;0;1000;False
+12:06:17;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_120x2"": 2}, ""entrada"": ""a4_300"", ""demanda_contratada_kw"": 200}";-37939.62766348328;0;1000;False
+12:07:21;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2, ""dc_30"": 1}, ""entrada"": ""b3_45"", ""politica"": {""prioridade"": ""proxima_retirada"", ""divisao"": ""prioridade""}}";-199.4729281566644;0;1000;False
+12:09:27;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2, ""dc_30"": 1}, ""entrada"": ""b3_45"", ""politica"": {""prioridade"": ""chegada""}}";14.254886910261376;0;1000;False
+12:11:33;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2, ""dc_30"": 1}, ""entrada"": ""b3_45"", ""politica"": {""evitar_ponta"": true}}";65.0;0;1000;False
+12:12:36;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 1}, ""entrada"": ""b3_45"", ""politica"": {""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}}";-25338.0;0;1000;False
+12:58:05;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 2}, ""entrada"": ""b3_45"", ""politica"": {""divisao"": ""prioridade"", ""prioridade"": ""chegada""}}";-6817.382185944995;0;1000;False
+12:58:06;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""dc_30"": 1}, ""entrada"": ""b3_45"", ""politica"": {""evitar_ponta"": true}}";565.0;0;1000;True
+12:59:10;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_22x2"": 1}, ""entrada"": ""b3_45"", ""politica"": {""evitar_ponta"": true}}";-8367.0;0;1000;False
+13:00:13;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_7"": 1}, ""entrada"": ""b3_45"", ""politica"": {""prioridade"": ""chegada""}}";-28180.256630663196;0;1000;False
+13:01:17;Bangkok;completo;"{""agencia"": ""Bangkok"", ""carregadores"": {""ac_11"": 2}, ""entrada"": ""b3_45""}";-9225.921800271242;0;1000;False
+13:19:40;Istanbul;placar;"{""agencia"": ""Istanbul"", ""carregadores"": {""ac_7"": 3, ""dc_30"": 1}, ""entrada"": ""b3_75"", ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";8381.19435907689;20;980;False
+13:33-13:52;Istanbul;envio final;"{""agencia"": ""Istanbul"", ""carregadores"": {""ac_7"": 3, ""dc_30"": 1}, ""entrada"": ""b3_75"", ""politica"": {""prioridade"": ""chegada"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";8438.074101775079;50;930;"nota = semanas ocultas; inferido pelo saldo"
+13:52:33;Hanoi;placar;"{""agencia"": ""Hanoi"", ""carregadores"": {""ac_7"": 5, ""dc_30"": 1}, ""entrada"": ""b3_75"", ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";6211.016267224158;20;910;False
+14:10-15:09;Hanoi;envio final;"{""agencia"": ""Hanoi"", ""carregadores"": {""ac_7"": 5, ""dc_30"": 1}, ""entrada"": ""b3_75"", ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";5762.964001745148;50;860;"nota = semanas ocultas; inferido pelo saldo"
+15:15:29;Marrakech;completo (repetido);"{""agencia"": ""Marrakech"", ""carregadores"": {""ac_7"": 9, ""dc_30"": 1}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 130, ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": true, ""divisao"": ""igual""}}";5786.0;0;830;True
+15:34:30;Zurich;placar;"{""agencia"": ""Zurich"", ""carregadores"": {""dc_30"": 4}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 100, ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": false, ""divisao"": ""igual""}}";-8533.598432392575;20;790;False
+15:35-15:53;Zurich;envio final;"{""agencia"": ""Zurich"", ""carregadores"": {""ac_7"": 1, ""dc_60x2"": 1}, ""entrada"": ""b3_75"", ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": false, ""divisao"": ""prioridade""}}";131.85878843028013;70;720;"nota = semanas ocultas; confirmado pelo status (790 -> 720)"
+15:54-16:03;Marrakech;envio final;"{""agencia"": ""Marrakech"", ""carregadores"": {""ac_7"": 9, ""dc_30"": 1}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 130, ""politica"": {""prioridade"": ""proxima_retirada"", ""evitar_ponta"": true, ""divisao"": ""igual""}}";6887.0;70;650;"nota = semanas ocultas; inferido pelo saldo"
+16:03-16:39;Vienna;envio final;"{""agencia"": ""Vienna"", ""carregadores"": {""ac_7"": 4}, ""entrada"": ""a4_150"", ""demanda_contratada_kw"": 30, ""politica"": {""prioridade"": ""chegada"", ""evitar_ponta"": true, ""divisao"": ""igual""}}";12077.0;50;600;"nota = semanas ocultas; inferido pelo saldo"

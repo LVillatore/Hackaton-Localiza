@@ -1,0 +1,54 @@
+﻿agencia;fonte;item;quantidade;peso;pontos
+Bangkok;motor (semanas públicas);certo;270;15;4050
+Bangkok;motor (semanas públicas);upgrade;0;8;0
+Bangkok;motor (semanas públicas);nao_atendido;1;-200;-200
+Bangkok;motor (semanas públicas);demanda_contratada;0.0;-2;-0.0
+Bangkok;motor (semanas públicas);energia_ponta_kwh;0;-0.5;-0.0
+Bangkok;motor (semanas públicas);infraestrutura;750;-1;-750
+Istanbul;motor (semanas públicas);certo;1290;15;19350
+Istanbul;motor (semanas públicas);upgrade;1;8;8
+Istanbul;motor (semanas públicas);nao_atendido;2;-200;-400
+Istanbul;motor (semanas públicas);demanda_contratada;0.0;-2;-0.0
+Istanbul;motor (semanas públicas);energia_ponta_kwh;2576.386514083999;-0.5;-1288.1932570419995
+Istanbul;motor (semanas públicas);infraestrutura;9250;-1;-9250
+Istanbul;juiz (semanas ocultas, só total);nota;;;8438.074101775079
+Hanoi;motor (semanas públicas);certo;1156;15;17340
+Hanoi;motor (semanas públicas);upgrade;10;8;80
+Hanoi;motor (semanas públicas);nao_atendido;1;-200;-200
+Hanoi;motor (semanas públicas);demanda_contratada;0.0;-2;-0.0
+Hanoi;motor (semanas públicas);energia_ponta_kwh;2517.9674655516847;-0.5;-1258.9837327758423
+Hanoi;motor (semanas públicas);infraestrutura;9750;-1;-9750
+Hanoi;juiz (semanas públicas);certo;1156;15;17340
+Hanoi;juiz (semanas públicas);upgrade;10;8;80
+Hanoi;juiz (semanas públicas);nao_atendido;1;-200;-200
+Hanoi;juiz (semanas públicas);demanda_contratada;0.0;-2;-0.0
+Hanoi;juiz (semanas públicas);energia_ponta_kwh;2517.9674655516847;-0.5;-1258.9837327758423
+Hanoi;juiz (semanas públicas);infraestrutura;9750;-1;-9750
+Hanoi;juiz (semanas ocultas, só total);nota;;;5762.964001745148
+Marrakech;motor (semanas públicas);certo;1210;15;18150
+Marrakech;motor (semanas públicas);upgrade;20;8;160
+Marrakech;motor (semanas públicas);nao_atendido;0;-200;0
+Marrakech;motor (semanas públicas);demanda_contratada;130;-2;-260
+Marrakech;motor (semanas públicas);energia_ponta_kwh;0;-0.5;-0.0
+Marrakech;motor (semanas públicas);infraestrutura;12250;-1;-12250
+Marrakech;juiz (semanas públicas);certo;1208;15;18120
+Marrakech;juiz (semanas públicas);upgrade;22;8;176
+Marrakech;juiz (semanas públicas);nao_atendido;0;-200;0
+Marrakech;juiz (semanas públicas);demanda_contratada;130;-2;-260
+Marrakech;juiz (semanas públicas);energia_ponta_kwh;0;-0.5;-0.0
+Marrakech;juiz (semanas públicas);infraestrutura;12250;-1;-12250
+Marrakech;juiz (semanas ocultas, só total);nota;;;6887.0
+Zurich;motor (semanas públicas);certo;840;15;12600
+Zurich;motor (semanas públicas);upgrade;21;8;168
+Zurich;motor (semanas públicas);nao_atendido;6;-200;-1200
+Zurich;motor (semanas públicas);demanda_contratada;0.0;-2;-0.0
+Zurich;motor (semanas públicas);energia_ponta_kwh;2055.2622209161987;-0.5;-1027.6311104580993
+Zurich;motor (semanas públicas);infraestrutura;7550;-1;-7550
+Zurich;juiz (semanas ocultas, só total);nota;;;131.85878843028013
+Vienna;motor (semanas públicas);certo;864;15;12960
+Vienna;motor (semanas públicas);upgrade;0;8;0
+Vienna;motor (semanas públicas);nao_atendido;0;-200;0
+Vienna;motor (semanas públicas);demanda_contratada;30;-2;-60
+Vienna;motor (semanas públicas);energia_ponta_kwh;0;-0.5;-0.0
+Vienna;motor (semanas públicas);infraestrutura;1000;-1;-1000
+Vienna;juiz (semanas ocultas, só total);nota;;;12077.0

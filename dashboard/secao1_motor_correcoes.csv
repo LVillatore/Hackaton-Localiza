@@ -1,0 +1,11 @@
+﻿hora;agencia;o_que;motivo;antes;depois
+~11:30;Bangkok;Arredondar chaves de ordenação (6 casas);Teste 2 da bateria: empate em menor_soc (64 km virava 63,9999 km);atendimento 40,59% motor x 40,22% juiz (1 cliente);igual ao juiz
+~11:30;Bangkok;fila_max no formato do juiz (FILA_COMO_JUIZ);Série fila_max diverge com energia e potência iguais;fila_max diverge;todas as séries iguais
+12:58-13:01;Bangkok;Nenhuma (bateria de 27 testes);Validar regras e inferir pesos;-;"25/27 com séries exatas; 2 resíduos de 0,00001 kW e 0,03 kW (nota -199,4751 x -199,4729)"
+13:19-13:33;Istanbul;Fila de T0 entra toda e só depois ordena e pluga;"Teste placar de Istanbul (aberta 24 h em T0); Bangkok está fechada em T0";nota 8.826,28 motor x 8.381,19 juiz (+5,31%);diferença 0 (6 casas decimais)
+13:52;Hanoi;Nenhuma;Teste placar (aberta na ponta, fecha à noite);-;nota 6.211,016267 igual ao juiz
+~14:30;Marrakech;Evento 'corte' (limite x 0,7) e motor 2x mais rápido;"Evento anunciado; busca com 10 vagas lenta (2,66 s por simulação)";2,66 s/simulação;"1,24 s/simulação; fidelidade igual (29/30)"
+15:15-15:25;Marrakech;"SOC 80% com comparação estrita; carro exatamente em 80% num recálculo simultâneo segura a saída; desfeita a parte da otimização que mudava ponto flutuante";Teste completo de Marrakech: séries divergiam a partir de Seg 18/10 10:15;nota 5.786 = juiz, energia +12,4 kWh, séries divergem Seg 18/10 10:15;"séries iguais até Ter 26/10 11:15; nota 5.800 x 5.786 (+0,24%), energia +8,1 kWh (+0,037%)"
+15:30;Zurich;Regra de parada do varrer.py (busca, não motor);Parava antes de achar configurações com menos perdidos;melhor achado: 1 perdido;melhor achado: 0 perdidos
+15:34;Zurich;Nenhuma;Teste placar (4x dc_30, a4_150);-;nota -8.533,598 igual ao juiz
+15:55-16:05;Marrakech;Nenhuma mantida;Investigar os 14 pontos restantes (tolerância em 80%, SOC por âncora, tempo em µs/ms/s);nota +14;"hipóteses rejeitadas; ruído de ponto flutuante do juiz, sem efeito na escolha"

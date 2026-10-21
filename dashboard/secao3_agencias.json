@@ -1,0 +1,281 @@
+[
+ {
+  "agencia": "Bangkok",
+  "vagas": 6,
+  "horario": {
+   "Seg": "08:00-18:00",
+   "Ter": "08:00-18:00",
+   "Qua": "08:00-18:00",
+   "Qui": "08:00-18:00",
+   "Sex": "08:00-18:00",
+   "Sáb": "08:00-12:00",
+   "Dom": "fechado"
+  },
+  "entrada_existente": "b3_45",
+  "entrada_kw_util": 40.5,
+  "frota": 80,
+  "contratos_publicos": 271,
+  "eventos": [],
+  "submissao": {
+   "agencia": "Bangkok",
+   "carregadores": {
+    "ac_7": 3
+   },
+   "entrada": "b3_45",
+   "politica": {
+    "prioridade": "chegada",
+    "evitar_ponta": true,
+    "divisao": "igual"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  },
+  "status_final": "tutorial, não pontua",
+  "busca": "otimizar.py: todas as combinações de carregadores nas 6 vagas x entradas x 12 políticas (593 submissões) com os pesos inferidos; critério: maior nota.",
+  "porque": "3x ac_7 custa 750 de obra e perde 1 cliente; dc_30 atende todos mas a obra (3.500) leva a nota a 533. Bangkok fecha às 18:00, então evitar_ponta zera a ponta sem perder clientes.",
+  "entrada_demanda": "Mantém b3_45 (existente, sem obra); B3 não aceita demanda contratada.",
+  "alternativas": "dc_30 (533); 10 cenários do usuário, todos negativos (melhor: 3x ac_22x2, -435).",
+  "nota_motor_publica": 3100.0,
+  "nota_juiz_oculta": null
+ },
+ {
+  "agencia": "Istanbul",
+  "vagas": 4,
+  "horario": {
+   "Seg": "00:00-24:00",
+   "Ter": "00:00-24:00",
+   "Qua": "00:00-24:00",
+   "Qui": "00:00-24:00",
+   "Sex": "00:00-24:00",
+   "Sáb": "00:00-24:00",
+   "Dom": "00:00-24:00"
+  },
+  "entrada_existente": "b3_45",
+  "entrada_kw_util": 40.5,
+  "frota": 235,
+  "contratos_publicos": 1293,
+  "eventos": [],
+  "submissao": {
+   "agencia": "Istanbul",
+   "carregadores": {
+    "ac_7": 3,
+    "dc_30": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "chegada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 4250,
+   "entrada": 5000,
+   "total": 9250
+  },
+  "status_final": "envio final feito pelo usuário (GUI): 8.419 público; 8.438,07 nas semanas ocultas",
+  "busca": "varrer.py (lexicográfico) e depois melhor_nota.py (maior nota): 70 combinações de carregadores nas 4 vagas x 5 entradas x 12 políticas x demanda de 10 em 10 kW; 1.944 simulações.",
+  "porque": "Mesma configuração confirmada no juiz (8.381,19 com proxima_retirada); trocar para chegada dá 8.419,81 (2 upgrades a menos, menos ponta). Ordenado por nota, não por zero perdidos (decisão do usuário).",
+  "entrada_demanda": "Amplia b3_45 -> b3_75 (5.000): com b3_45 a melhor opção perde 43 clientes. B3 não tem demanda.",
+  "alternativas": "ac_7+ac_22x2+dc_30 b3_75 (0 perdidos, 7.834); 2x dc_30 b3_75 + evitar_ponta (7.395, mais segura).",
+  "nota_motor_publica": 8419.806742958,
+  "nota_juiz_oculta": 8438.074101775079
+ },
+ {
+  "agencia": "Hanoi",
+  "vagas": 6,
+  "horario": {
+   "Seg": "07:00-20:00",
+   "Ter": "07:00-20:00",
+   "Qua": "07:00-20:00",
+   "Qui": "07:00-20:00",
+   "Sex": "07:00-20:00",
+   "Sáb": "07:00-20:00",
+   "Dom": "08:00-14:00"
+  },
+  "entrada_existente": "b3_45",
+  "entrada_kw_util": 40.5,
+  "frota": 305,
+  "contratos_publicos": 1167,
+  "eventos": [],
+  "submissao": {
+   "agencia": "Hanoi",
+   "carregadores": {
+    "ac_7": 5,
+    "dc_30": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": false,
+    "divisao": "igual"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 4750,
+   "entrada": 5000,
+   "total": 9750
+  },
+  "status_final": "envio final feito; 5.762,96 nas semanas ocultas",
+  "busca": "melhor_nota.py com pesos oficiais (inclui subestações), todas as combinações nas 6 vagas x entradas x demandas x 12 políticas; robustez.py semana a semana (nota pessimista = 4 x pior semana).",
+  "porque": "Maior nota pública (6.211,02, igual no juiz) e também a melhor no cenário pessimista (5.428,53).",
+  "entrada_demanda": "Amplia b3_45 -> b3_75 (5.000), pico 65 kW < 67,5 kW; A4 custa 6.500 + demanda e não compensa.",
+  "alternativas": "3x ac_7+ac_22x2+dc_30 (0 perdidos, 5.457); 5x ac_7+dc_30 a4_150 d70 (4.571).",
+  "nota_motor_publica": 6211.016267224158,
+  "nota_juiz_oculta": 5762.964001745148
+ },
+ {
+  "agencia": "Marrakech",
+  "vagas": 10,
+  "horario": {
+   "Seg": "07:00-18:00",
+   "Ter": "07:00-18:00",
+   "Qua": "07:00-18:00",
+   "Qui": "07:00-18:00",
+   "Sex": "07:00-18:00",
+   "Sáb": "07:00-13:00",
+   "Dom": "fechado"
+  },
+  "entrada_existente": "b3_45",
+  "entrada_kw_util": 40.5,
+  "frota": 480,
+  "contratos_publicos": 1230,
+  "eventos": [
+   {
+    "agencia": "Marrakech",
+    "tipo": "corte",
+    "params": [
+     "corte",
+     "Marrakech",
+     31680,
+     34560,
+     0.7
+    ],
+    "janela": "Seg 08/11 00:00 a Qua 10/11 00:00",
+    "efeito": "limite da agência x 0,7 por 48 h",
+    "reacao": [
+     "motor: etapa 7 (agendar_eventos/on_evento) aplica o fator ao limite",
+     "busca: demanda útil até nominal / 0,7 (vizinhanca.py, melhor_nota.py)",
+     "demanda mantida em 130 kW: sobram 91 kW no corte (com 100 kW sobrariam 70 kW e 5 perdidos)",
+     "robustez_evento.py: corte deslocado para cada um dos 28 dias -> média 5.747, pior 5.543, sem evento 5.779"
+    ],
+    "carta": "Pedido da concessionaria (conteúdo não acessível pela API: 403)"
+   }
+  ],
+  "submissao": {
+   "agencia": "Marrakech",
+   "carregadores": {
+    "ac_7": 9,
+    "dc_30": 1
+   },
+   "entrada": "a4_150",
+   "demanda_contratada_kw": 130,
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": true,
+    "divisao": "igual"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 5750,
+   "entrada": 6500,
+   "total": 12250
+  },
+  "status_final": "envio final feito; 6.887 nas semanas ocultas",
+  "busca": "melhor_nota.py e vizinhanca.py (~1.400 simulações em volta da configuração do usuário), com o evento de corte; robustez_evento.py desloca o corte de 48 h para cada um dos 28 dias.",
+  "porque": "Configuração do usuário (5.786 no juiz, 0 perdidos); nenhuma variação passou dela; melhor média (5.747) e pior caso (5.543) com o corte em qualquer data.",
+  "entrada_demanda": "a4_150 com 130 kW: durante o corte o limite vira 70% (91 kW); com 100 kW sobram 70 kW e 5 clientes são perdidos. evitar_ponta vale ~+850.",
+  "alternativas": "8x ac_7+ac_11+dc_30 a4_150 110 kW (4.976); 8x ac_7+dc_30 130 kW (4.870, perde 5).",
+  "nota_motor_publica": 5800.0,
+  "nota_juiz_oculta": 6887.0
+ },
+ {
+  "agencia": "Zurich",
+  "vagas": 4,
+  "horario": {
+   "Seg": "08:00-20:00",
+   "Ter": "08:00-20:00",
+   "Qua": "08:00-20:00",
+   "Qui": "08:00-20:00",
+   "Sex": "08:00-20:00",
+   "Sáb": "08:00-14:00",
+   "Dom": "fechado"
+  },
+  "entrada_existente": "b3_75",
+  "entrada_kw_util": 67.5,
+  "frota": 255,
+  "contratos_publicos": 867,
+  "eventos": [],
+  "submissao": {
+   "agencia": "Zurich",
+   "carregadores": {
+    "ac_7": 1,
+    "dc_60x2": 1
+   },
+   "entrada": "b3_75",
+   "politica": {
+    "prioridade": "proxima_retirada",
+    "evitar_ponta": false,
+    "divisao": "prioridade"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 7550,
+   "entrada": 0,
+   "total": 7550
+  },
+  "status_final": "envio final feito; 2.990,37 público, 131,86 nas semanas ocultas",
+  "busca": "melhor_nota.py (todas as 70 combinações nas 4 vagas x entradas x 12 políticas); varrer.py lexicográfico; oculto.py recalibrado com a nota oculta real (alfa 0,757).",
+  "porque": "Maior nota pública (2.990,37). Depois do envio, a calibração pela nota oculta apontou 2x ac_7+dc_60x2 (oculta estimada ~461, +330); reenvio não feito.",
+  "entrada_demanda": "Mantém b3_75 existente; A4 custa >= 6.500 e o teto da agência é 867 x 15 = 13.005.",
+  "alternativas": "2x ac_7+dc_60x2 b3_75 (oculta ~461); 4x dc_30 a4_150 100 kW (0 perdidos, -8.533,60 no juiz).",
+  "nota_motor_publica": 2990.368889541901,
+  "nota_juiz_oculta": 131.85878843028013
+ },
+ {
+  "agencia": "Vienna",
+  "vagas": 30,
+  "horario": {
+   "Seg": "00:00-24:00",
+   "Ter": "00:00-24:00",
+   "Qua": "00:00-24:00",
+   "Qui": "00:00-24:00",
+   "Sex": "00:00-24:00",
+   "Sáb": "00:00-24:00",
+   "Dom": "00:00-24:00"
+  },
+  "entrada_existente": "a4_150",
+  "entrada_kw_util": 135.0,
+  "frota": 300,
+  "contratos_publicos": 864,
+  "eventos": [],
+  "submissao": {
+   "agencia": "Vienna",
+   "carregadores": {
+    "ac_7": 4
+   },
+   "entrada": "a4_150",
+   "demanda_contratada_kw": 30,
+   "politica": {
+    "prioridade": "chegada",
+    "evitar_ponta": true,
+    "divisao": "igual"
+   }
+  },
+  "custo_obra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  },
+  "status_final": "envio final feito pelo usuário (JSON confirmado); 12.077 nas semanas ocultas",
+  "busca": "busca_grande.py (30 vagas): 2.618 hardwares x evitar_ponta x 3 demandas, depois 12 políticas x 11 demandas nas 40 melhores e vizinhança +-1; 25.470 simulações. Teste de estresse com devoluções com menos autonomia (+5% a +50% de energia).",
+  "porque": "Menor obra que atende os 864 contratos (11.900 público). Com chegada + evitar_ponta segue perfeita até +25% de energia. O placar indica semanas ocultas ~2% mais pesadas (~880 contratos).",
+  "entrada_demanda": "Mantém a4_150 existente (sem obra); demanda mínima de 30 kW cobre os 28 kW instalados.",
+  "alternativas": "5x ac_7 d30 (11.650, aguenta +40%); 5x ac_7 d40 (11.630, aguenta +50%).",
+  "nota_motor_publica": 11900.0,
+  "nota_juiz_oculta": 12077.0
+ }
+]

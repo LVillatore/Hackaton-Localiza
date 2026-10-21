@@ -1,0 +1,22 @@
+[
+ {
+  "agencia": "Marrakech",
+  "tipo": "corte",
+  "params": [
+   "corte",
+   "Marrakech",
+   31680,
+   34560,
+   0.7
+  ],
+  "janela": "Seg 08/11 00:00 a Qua 10/11 00:00",
+  "efeito": "limite da agência x 0,7 por 48 h",
+  "reacao": [
+   "motor: etapa 7 (agendar_eventos/on_evento) aplica o fator ao limite",
+   "busca: demanda útil até nominal / 0,7 (vizinhanca.py, melhor_nota.py)",
+   "demanda mantida em 130 kW: sobram 91 kW no corte (com 100 kW sobrariam 70 kW e 5 perdidos)",
+   "robustez_evento.py: corte deslocado para cada um dos 28 dias -> média 5.747, pior 5.543, sem evento 5.779"
+  ],
+  "carta": "Pedido da concessionaria (conteúdo não acessível pela API: 403)"
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "ordem": 1,
+  "etapa": "etapa 2",
+  "metodo": "soc_devolucao",
+  "secao": "4.1",
+  "regra": "SOC de devolução = km / autonomia do modelo x 100, teto no SOC de saída"
+ },
+ {
+  "ordem": 2,
+  "etapa": "etapa 2",
+  "metodo": "entrar_patio",
+  "secao": "5.2",
+  "regra": "abaixo de 80% vai para a fila; acima fica apto"
+ },
+ {
+  "ordem": 3,
+  "etapa": "etapa 2",
+  "metodo": "escolher_carro",
+  "secao": "5.1, 6.3.1",
+  "regra": "categoria >= pedida, SOC >= 80; menor upgrade > menor SOC > não plugado > id"
+ },
+ {
+  "ordem": 4,
+  "etapa": "etapa 3",
+  "metodo": "ordenar_fila (chegada, menor_soc)",
+  "secao": "6.3.3",
+  "regra": "FIFO; menor km restante"
+ },
+ {
+  "ordem": 5,
+  "etapa": "etapa 3",
+  "metodo": "escolher_ponto",
+  "secao": "6.3.4",
+  "regra": "carregador com mais potência estimada; empate pelo id"
+ },
+ {
+  "ordem": 6,
+  "etapa": "etapa 3",
+  "metodo": "plugar_fila",
+  "secao": "5.2, 6.3.3",
+  "regra": "só aberta, na ordem, enquanto houver saída"
+ },
+ {
+  "ordem": 7,
+  "etapa": "etapa 3",
+  "metodo": "recalcular_potencias (camada 1)",
+  "secao": "5.3, 6.3.5",
+  "regra": "nominal do carregador dividida, teto na curva"
+ },
+ {
+  "ordem": 8,
+  "etapa": "etapa 3",
+  "metodo": "agendar_fim_degrau / on_fim_recarga",
+  "secao": "5.3, 6.3.2",
+  "regra": "degraus de 5% até 80%; segura a saída fechada"
+ },
+ {
+  "ordem": 9,
+  "etapa": "etapa 4",
+  "metodo": "recalcular_potencias (camada 2)",
+  "secao": "5.3, 6.3.5, 6.3.7",
+  "regra": "limite da agência com igual / prioridade"
+ },
+ {
+  "ordem": 10,
+  "etapa": "etapa 5",
+  "metodo": "on_abertura / on_fechamento / on_ponta",
+  "secao": "5.2, 5.3, 6.3.6",
+  "regra": "horário e evitar_ponta (0 kW, segue plugado)"
+ },
+ {
+  "ordem": 11,
+  "etapa": "etapa 6",
+  "metodo": "ordenar_fila (proxima_retirada)",
+  "secao": "6.3.3",
+  "regra": "próxima reserva compatível; empate maior SOC"
+ },
+ {
+  "ordem": 12,
+  "etapa": "etapa 7",
+  "metodo": "agendar_eventos / on_evento (corte)",
+  "secao": "11",
+  "regra": "limite x fator na janela do evento (Marrakech)"
+ }
+]

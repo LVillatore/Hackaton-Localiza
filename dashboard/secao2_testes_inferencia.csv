@@ -1,0 +1,28 @@
+﻿teste;hora;variou_vs_exemplo;carregadores;entrada;demanda_kw;prioridade;evitar_ponta;divisao;nota_juiz;certos;upgrades;nao_atendidos;energia_ponta_kwh;custo_obra;nota_motor_pesos_oficiais
+Bangkok_ac_7x2+dc_30x1_b3_45_igua-Fals-meno;11:24:46;;"{""ac_7"": 2, ""dc_30"": 1}";b3_45;0;menor_soc;False;igual;14.47494914247065;271;0;0;101.0501017150587;4000;14.47494914247065
+Bangkok_ac_7x1_b3_45;11:47:06;carregadores,politica;"{""ac_7"": 1}";b3_45;0;padrão;False;igual;-31286.04795510952;87;22;162;234.09591021904123;250;-31286.04795510952
+Bangkok_ac_7x2_b3_45;11:48:10;carregadores,politica;"{""ac_7"": 2}";b3_45;0;padrão;False;igual;-10719.736464071126;183;23;65;297.4729281422528;500;-10719.736464071126
+Bangkok_ac_7x3_b3_45;11:49:14;carregadores,politica;"{""ac_7"": 3}";b3_45;0;padrão;False;igual;2690.60253547441;267;2;2;360.79492905117996;750;2690.60253547441
+Bangkok_ac_7x6_b3_45;11:50:17;carregadores,politica;"{""ac_7"": 6}";b3_45;0;padrão;False;igual;2461.017566280859;271;0;0;207.96486743828234;1500;2461.017566280859
+Bangkok_ac_11x1_b3_45;11:51:21;carregadores,politica;"{""ac_11"": 1}";b3_45;0;padrão;False;igual;-30909.043521993754;87;28;156;276.08704398750604;1100;-30909.043521993754
+Bangkok_ac_11x3_b3_45;11:52:26;carregadores,politica;"{""ac_11"": 3}";b3_45;0;padrão;False;igual;390.42863187311127;269;1;1;305.14273625377746;3300;390.42863187311127
+Bangkok_ac_22x2x1_b3_45;11:53:30;carregadores,politica;"{""ac_22x2"": 1}";b3_45;0;padrão;False;igual;-8525.921800271242;195;26;50;317.84360054248486;1500;-8525.921800271242
+Bangkok_ac_22x2x3_b3_45;11:54:35;carregadores,politica;"{""ac_22x2"": 3}";b3_45;0;padrão;False;igual;-519.8353975368602;271;0;0;169.67079507372037;4500;-519.8353975368602
+Bangkok_dc_30x1_b3_45;11:56:41;carregadores,politica;"{""dc_30"": 1}";b3_45;0;padrão;False;igual;533.208185893985;271;0;0;63.583628212029986;3500;533.208185893985
+Bangkok_dc_30x2_b3_45;11:57:45;carregadores,politica;"{""dc_30"": 2}";b3_45;0;padrão;False;igual;-2956.553415750059;271;0;0;43.1068315001173;7000;-2956.553415750059
+Bangkok_dc_60x2x1_b3_45;11:58:49;carregadores,politica;"{""dc_60x2"": 1}";b3_45;0;padrão;False;igual;-3250.705392277932;271;0;0;31.410784555863398;7300;-3250.705392277932
+Bangkok_dc_120x2x1_b3_45;11:59:53;carregadores,politica;"{""dc_120x2"": 1}";b3_45;0;padrão;False;igual;-11750.705392277932;271;0;0;31.410784555863398;15800;-11750.705392277932
+Bangkok_ac_7x2+dc_60x2x1_b3_75;12:02:00;carregadores,entrada,politica;"{""dc_60x2"": 1, ""ac_7"": 2}";b3_75;0;padrão;False;igual;-8740.880498962313;271;0;0;11.760997924624983;12800;-8740.880498962313
+Bangkok_ac_7x2+dc_60x2x1_a4_150_d40;12:03:04;carregadores,entrada,demanda_contratada_kw,politica;"{""dc_60x2"": 1, ""ac_7"": 2}";a4_150;40;padrão;False;igual;-10335.63877220184;271;0;0;41.27754440367973;14300;-10335.63877220184
+Bangkok_ac_7x2+dc_60x2x1_a4_150_d120;12:04:09;carregadores,entrada,demanda_contratada_kw,politica;"{""dc_60x2"": 1, ""ac_7"": 2}";a4_150;120;padrão;False;igual;-10480.880498962313;271;0;0;11.760997924624983;14300;-10480.880498962313
+Bangkok_dc_60x2x2_a4_225_d60;12:05:13;carregadores,entrada,demanda_contratada_kw,politica;"{""dc_60x2"": 2}";a4_225;60;padrão;False;igual;-18864.167953242668;271;0;0;18.3359064853339;22800;-18864.167953242668
+Bangkok_dc_120x2x2_a4_300_d200;12:06:17;carregadores,entrada,demanda_contratada_kw,politica;"{""dc_120x2"": 2}";a4_300;200;padrão;False;igual;-37939.62766348328;271;0;0;9.25532696657124;41600;-37939.62766348328
+Bangkok_ac_7x2+dc_30x1_b3_45_prio-prox;12:07:21;politica;"{""ac_7"": 2, ""dc_30"": 1}";b3_45;0;proxima_retirada;False;prioridade;-199.4729281566644;270;0;1;98.95012967486467;4000;-199.47506483743234
+Bangkok_ac_7x2+dc_30x1_b3_45_cheg;12:09:27;politica;"{""ac_7"": 2, ""dc_30"": 1}";b3_45;0;chegada;False;igual;14.254886910261376;271;0;0;101.49022617947726;4000;14.25488691026137
+Bangkok_ac_7x2+dc_30x1_b3_45_True;12:11:33;politica;"{""ac_7"": 2, ""dc_30"": 1}";b3_45;0;padrão;True;igual;65.0;271;0;0;0;4000;65.0
+Bangkok_ac_7x1_b3_45_True-prox;12:12:36;carregadores,politica;"{""ac_7"": 1}";b3_45;0;proxima_retirada;True;igual;-25338.0;88;49;134;0;250;-25338.0
+Bangkok_ac_7x2_b3_45_prio-cheg;12:58:05;carregadores,politica;"{""ac_7"": 2}";b3_45;0;chegada;False;prioridade;-6817.382185944995;186;39;46;438.7643718899908;500;-6817.382185944995
+Bangkok_dc_30x1_b3_45_True;12:58:06;carregadores,politica;"{""dc_30"": 1}";b3_45;0;padrão;True;igual;565.0;271;0;0;0;3500;565.0
+Bangkok_ac_22x2x1_b3_45_True;12:59:10;carregadores,politica;"{""ac_22x2"": 1}";b3_45;0;padrão;True;igual;-8367.0;195;26;50;0;1500;-8367.0
+Bangkok_ac_7x1_b3_45_cheg;13:00:13;carregadores,politica;"{""ac_7"": 1}";b3_45;0;chegada;False;igual;-28180.256630663196;83;41;147;206.51326132639494;250;-28180.256630663196
+Bangkok_ac_11x2_b3_45;13:01:17;carregadores,politica;"{""ac_11"": 2}";b3_45;0;padrão;False;igual;-9225.921800271242;195;26;50;317.84360054248486;2200;-9225.921800271242

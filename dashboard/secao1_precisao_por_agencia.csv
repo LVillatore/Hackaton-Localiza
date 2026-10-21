@@ -1,0 +1,6 @@
+﻿agencia;testes_juiz;nota_exata;nota_erro_pct_max;contratos_erro_pct_max;atendimento_pct_erro_pct_max;pico_kw_erro_pct_max;energia_kwh_erro_pct_max
+Bangkok;28;27;0.0010711632839994702;0;0;7.105427357601449e-14;5.498304360734336e-08
+Istanbul;1;1;0;0;0;0;0
+Hanoi;1;1;0;0;0;2.1862853408003122e-14;0
+Marrakech;1;0;0.24196335983408226;0;0;9.657269010761958e-12;0.03723260345038759
+Zurich;1;1;0;0;0;0;0

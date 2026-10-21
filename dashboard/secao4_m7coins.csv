@@ -1,0 +1,13 @@
+﻿hora;agencia;operacao;m7coins;saldo_depois;status
+11:24-13:01;Bangkok;28 testes completos (bateria de pesos + validação);0;1000;confirmado (taxa 0)
+13:19;Istanbul;teste placar;20;980;confirmado (resposta)
+13:33-13:52;Istanbul;envio final (GUI do usuário);50;930;inferido pelo saldo
+13:52;Hanoi;teste placar;20;910;confirmado (resposta)
+14:10-15:09;Hanoi;envio final;50;860;inferido pelo saldo
+~15:10;Marrakech;teste completo do usuário (nota 5.786);30;830;inferido pelo saldo
+15:15;Marrakech;teste completo repetido;0;830;confirmado (taxa 0, repetido)
+15:15-15:34;?;não identificado (provável teste do usuário);20;810;inferido pelo saldo
+15:34;Zurich;teste placar;20;790;confirmado (resposta)
+15:35-15:53;Zurich;envio final;70;720;confirmado pelo status (790 -> 720)
+15:54-16:03;Marrakech;envio final;70;650;inferido pelo saldo
+16:03-16:39;Vienna;envio final;50;600;inferido pelo saldo

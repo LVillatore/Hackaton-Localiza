@@ -1,0 +1,299 @@
+{
+ "recalculando": false,
+ "fase": "clara",
+ "etapa": {
+  "n": 5,
+  "rotulo": "H5"
+ },
+ "h0": "2026-10-21T14:02:59.605683+00:00",
+ "atualizado_em": "2026-10-21T19:39:53.195646+00:00",
+ "agencias": [
+  "Istanbul",
+  "Hanoi",
+  "Marrakech",
+  "Zurich",
+  "Vienna"
+ ],
+ "a_liberar": 1,
+ "cartas": [
+  {
+   "n": 1,
+   "titulo": "Pedido da concessionaria",
+   "agencia": "Marrakech"
+  }
+ ],
+ "equipes": [
+  {
+   "posicao": 1,
+   "numero": 8,
+   "nome": "6 fuscas",
+   "nota": 33303.896891950506,
+   "agencias": {
+    "Istanbul": 8438.074101775079,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6894.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 12077.0
+   },
+   "finais": 5,
+   "saldo": 750,
+   "nao_atendidos": 18,
+   "custo_infra": 39800
+  },
+  {
+   "posicao": 2,
+   "numero": 15,
+   "nome": "Green Energy",
+   "nota": 33296.896891950506,
+   "agencias": {
+    "Istanbul": 8438.074101775079,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6887.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 12077.0
+   },
+   "finais": 5,
+   "saldo": 600,
+   "nao_atendidos": 18,
+   "custo_infra": 39800
+  },
+  {
+   "posicao": 3,
+   "numero": 13,
+   "nome": "Grupo 13",
+   "nota": 33205.1446198869,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6894.0,
+    "Zurich": 40.000274522473205,
+    "Vienna": 12077.0
+   },
+   "finais": 5,
+   "saldo": 750,
+   "nao_atendidos": 18,
+   "custo_infra": 40050
+  },
+  {
+   "posicao": 4,
+   "numero": 16,
+   "nome": "5 Fusquinhas e Um Sonho",
+   "nota": 33151.896891950506,
+   "agencias": {
+    "Istanbul": 8438.074101775079,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6894.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 11925.0
+   },
+   "finais": 5,
+   "saldo": 570,
+   "nao_atendidos": 19,
+   "custo_infra": 39800
+  },
+  {
+   "posicao": 5,
+   "numero": 14,
+   "nome": "Os Caórdicos",
+   "nota": 33094.00313379471,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6898.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 11870.0
+   },
+   "finais": 5,
+   "saldo": 610,
+   "nao_atendidos": 18,
+   "custo_infra": 40050
+  },
+  {
+   "posicao": 6,
+   "numero": 11,
+   "nome": "Greenblood",
+   "nota": 32780.1446198869,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6469.0,
+    "Zurich": 40.000274522473205,
+    "Vienna": 12077.0
+   },
+   "finais": 5,
+   "saldo": 670,
+   "nao_atendidos": 20,
+   "custo_infra": 40050
+  },
+  {
+   "posicao": 7,
+   "numero": 9,
+   "nome": "Carga Pesada",
+   "nota": 32405.201191387758,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 6894.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 11185.19805759305
+   },
+   "finais": 5,
+   "saldo": 420,
+   "nao_atendidos": 18,
+   "custo_infra": 40050
+  },
+  {
+   "posicao": 8,
+   "numero": 1,
+   "nome": "LESCA",
+   "nota": 29810.003133794708,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": 3614.0,
+    "Zurich": 131.85878843028013,
+    "Vienna": 11870.0
+   },
+   "finais": 5,
+   "saldo": 660,
+   "nao_atendidos": 18,
+   "custo_infra": 43300
+  },
+  {
+   "posicao": 9,
+   "numero": 6,
+   "nome": "Virens",
+   "nota": 26403.003133794708,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": null,
+    "Zurich": 131.85878843028013,
+    "Vienna": 12077.0
+   },
+   "finais": 4,
+   "saldo": 580,
+   "nao_atendidos": 18,
+   "custo_infra": 27550
+  },
+  {
+   "posicao": 10,
+   "numero": 12,
+   "nome": "Grupo 12",
+   "nota": 26271.144345364428,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": null,
+    "Zurich": null,
+    "Vienna": 12077.0
+   },
+   "finais": 3,
+   "saldo": 800,
+   "nao_atendidos": 2,
+   "custo_infra": 20000
+  },
+  {
+   "posicao": 11,
+   "numero": 7,
+   "nome": "se7en",
+   "nota": 20508.18034361928,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": null,
+    "Marrakech": null,
+    "Zurich": null,
+    "Vienna": 12077.0
+   },
+   "finais": 2,
+   "saldo": 610,
+   "nao_atendidos": 1,
+   "custo_infra": 10250
+  },
+  {
+   "posicao": 12,
+   "numero": 10,
+   "nome": "Grupo 10",
+   "nota": 14326.003133794708,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": null,
+    "Zurich": 131.85878843028013,
+    "Vienna": null
+   },
+   "finais": 3,
+   "saldo": 840,
+   "nao_atendidos": 18,
+   "custo_infra": 26550
+  },
+  {
+   "posicao": 13,
+   "numero": 5,
+   "nome": "Maroon 5",
+   "nota": 14016.58315841271,
+   "agencias": {
+    "Istanbul": 8431.180343619279,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": null,
+    "Zurich": -177.56118695171767,
+    "Vienna": null
+   },
+   "finais": 3,
+   "saldo": 600,
+   "nao_atendidos": 20,
+   "custo_infra": 26500
+  },
+  {
+   "posicao": 14,
+   "numero": 4,
+   "nome": "Quarteto Fantástico de 5",
+   "nota": 12447.96400174515,
+   "agencias": {
+    "Istanbul": 6685.0,
+    "Hanoi": 5762.964001745148,
+    "Marrakech": null,
+    "Zurich": null,
+    "Vienna": null
+   },
+   "finais": 2,
+   "saldo": 890,
+   "nao_atendidos": 2,
+   "custo_infra": 22050
+  },
+  {
+   "posicao": 15,
+   "numero": 3,
+   "nome": "localizando estágio",
+   "nota": 6810.000274522473,
+   "agencias": {
+    "Istanbul": 6770.0,
+    "Hanoi": null,
+    "Marrakech": null,
+    "Zurich": 40.000274522473205,
+    "Vienna": null
+   },
+   "finais": 2,
+   "saldo": 770,
+   "nao_atendidos": 18,
+   "custo_infra": 19800
+  },
+  {
+   "posicao": 16,
+   "numero": 2,
+   "nome": "katchau",
+   "nota": 6482.301134530277,
+   "agencias": {
+    "Istanbul": 6482.301134530277,
+    "Hanoi": null,
+    "Marrakech": null,
+    "Zurich": null,
+    "Vienna": null
+   },
+   "finais": 1,
+   "saldo": 570,
+   "nao_atendidos": 1,
+   "custo_infra": 11100
+  }
+ ]
+}
